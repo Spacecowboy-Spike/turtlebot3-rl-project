@@ -1,0 +1,7 @@
+build/
+install/
+log/
+experiments/
+*.h5
+__pycache__/
+*.pyc
