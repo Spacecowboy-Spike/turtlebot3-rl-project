@@ -110,7 +110,6 @@ ros2 run turtlebot3_dqn dqn_agent --ros-args \
   -p epsilon_decay:=${EPSILON_DECAY} \
   -p max_training_episodes:=${EPISODES} \
   -p use_gpu:=${USE_GPU} \
-  -p model_file:=${MODEL_FILE} \
   -p verbose:=true 2>&1 | tee '$EXP_DIR/train.log'
 exec bash
 " &
